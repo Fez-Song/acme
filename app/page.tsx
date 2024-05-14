@@ -48,3 +48,6 @@ export default function Page() {
     </main>
   );
 }
+
+//Email: user@nextmail.com
+//Password: 123456

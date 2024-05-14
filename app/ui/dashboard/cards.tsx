@@ -25,11 +25,11 @@ export default async function CardWrapper() {
     <>
       {/* NOTE: comment in this code when you get to this point in the course */}
 
-      <Card title="Collected" value={totalPaidInvoices} type="collected" />
-      <Card title="Pending" value={totalPendingInvoices} type="pending" />
-      <Card title="Total Invoices" value={numberOfInvoices} type="invoices" />
+      <Card title="总和" value={totalPaidInvoices} type="collected" />
+      <Card title="待处理" value={totalPendingInvoices} type="pending" />
+      <Card title="总订单" value={numberOfInvoices} type="invoices" />
       <Card
-        title="Total Customers"
+        title="客户数量"
         value={numberOfCustomers}
         type="customers"
       />

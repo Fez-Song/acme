@@ -24,7 +24,7 @@ export default async function RevenueChart() { // Make component async, remove t
   return (
     <div className="w-full md:col-span-4">
       <h2 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
-        Recent Revenue
+        近期收入
       </h2>
       {/* NOTE: comment in this code when you get to this point in the course */}
 
@@ -55,7 +55,7 @@ export default async function RevenueChart() { // Make component async, remove t
         </div>
         <div className="flex items-center pb-2 pt-6">
           <CalendarIcon className="h-5 w-5 text-gray-500" />
-          <h3 className="ml-2 text-sm text-gray-500 ">Last 12 months</h3>
+          <h3 className="ml-2 text-sm text-gray-500 ">最近12个月</h3>
         </div>
       </div>
     </div>
